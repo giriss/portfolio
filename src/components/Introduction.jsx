@@ -1,14 +1,9 @@
-import { Button, Container, Header, Icon, Image, List, Segment } from "semantic-ui-react";
-import ReactMarkdown from 'react-markdown';
-import styled from "styled-components";
+import ReactMarkdown from "react-markdown";
+import { Button, Header, Icon, Image, List, Segment } from "semantic-ui-react";
 
-const TopPaddedContainer = styled(Container)`
-  padding-top: 15px;
-`;
-
-function App() {
+function Introduction() {
   return (
-    <TopPaddedContainer text>
+    <>
       <Header as="h1" textAlign="center">
         <Image circular src="/avatar.jpg" /> Hello! I'm Girish Gopaul.
       </Header>
@@ -53,8 +48,8 @@ function App() {
           </ReactMarkdown>
         </Segment>
       </Segment.Group>
-    </TopPaddedContainer>
+    </>
   );
 }
 
-export default App;
+export default Introduction;
