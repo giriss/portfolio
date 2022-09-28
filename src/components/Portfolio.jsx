@@ -26,7 +26,7 @@ function Portfolio() {
   return (
     <>
       <Header as="h2">Stuffs I do for fun...</Header>
-      <Card.Group itemsPerRow={2}>
+      <Card.Group itemsPerRow={2} stackable>
         <PortfolioCard
           image="/hideincloud.jpg"
           header="Hide in Cloud"
