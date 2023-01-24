@@ -1,4 +1,5 @@
 import { Button, Card, Header, Icon } from "semantic-ui-react";
+import ReactMarkdown from "react-markdown";
 
 function PortfolioCard({ image, header, description, link, action, actionIcon }) {
   return (
@@ -6,7 +7,7 @@ function PortfolioCard({ image, header, description, link, action, actionIcon })
       raised
       image={image}
       header={header}
-      description={description}
+      description={<ReactMarkdown>{description}</ReactMarkdown>}
       extra={
         <Button
           basic
@@ -26,7 +27,7 @@ function Portfolio() {
   return (
     <>
       <Header as="h2">Stuffs I do for fun...</Header>
-      <Card.Group itemsPerRow={2} stackable>
+      <Card.Group doubling itemsPerRow={3} stackable>
         <PortfolioCard
           image="/hideincloud.jpg"
           header="Hide in Cloud"
@@ -42,6 +43,38 @@ function Portfolio() {
           link="https://github.com/giriss/code-image"
           action="View on Github"
           actionIcon="github"
+        />
+        <PortfolioCard
+          image="/todo.png"
+          header="todo-react"
+          description="I did the same todo app in **React, Angular, Vue** and **Svelte** just for fun. Try it out! ✌️"
+          link="https://todo-react-silk-chi.vercel.app/"
+          action="View app"
+          actionIcon="globe"
+        />
+        <PortfolioCard
+          image="/todo.png"
+          header="todo-angular"
+          description="I did the same todo app in **React, Angular, Vue** and **Svelte** just for fun. Try it out! ✌️"
+          link="https://todo-angular.vercel.app/"
+          action="View app"
+          actionIcon="globe"
+        />
+        <PortfolioCard
+          image="/todo.png"
+          header="todo-vue"
+          description="I did the same todo app in **React, Angular, Vue** and **Svelte** just for fun. Try it out! ✌️"
+          link="https://todo-vue-iota-three.vercel.app/"
+          action="View app"
+          actionIcon="globe"
+        />
+        <PortfolioCard
+          image="/todo.png"
+          header="todo-svelte"
+          description="I did the same todo app in **React, Angular, Vue** and **Svelte** just for fun. Try it out! ✌️"
+          link="https://todo-svelte.vercel.app/"
+          action="View app"
+          actionIcon="globe"
         />
       </Card.Group>
     </>
