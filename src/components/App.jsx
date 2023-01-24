@@ -7,7 +7,7 @@ const TopPaddedContainer = styled('div')`
     padding: 15px 50px;
   }
   @media (min-width: 900px) {
-    padding: 15px 200px;
+    padding: 15px 150px;
   }
 `;
 
