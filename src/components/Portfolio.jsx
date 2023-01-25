@@ -45,6 +45,14 @@ function Portfolio() {
           actionIcon="github"
         />
         <PortfolioCard
+          image="/employees.png"
+          header="Employee database"
+          description="I made this one over a weekend using **React** in the front-end and **Elixir** in the back-end. CRUD app with authentication. Simply register quickly to try out the app."
+          link="https://employees-front.vercel.app/"
+          action="View app"
+          actionIcon="globe"
+        />
+        <PortfolioCard
           image="/todo.png"
           header="todo-react"
           description="I did the same todo app in **React, Angular, Vue** and **Svelte** just for fun. Try it out! ✌️"
