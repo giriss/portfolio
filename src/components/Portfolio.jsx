@@ -31,7 +31,7 @@ function Portfolio() {
         <PortfolioCard
           image="/hideincloud.jpg"
           header="Hide in Cloud"
-          description="Need to hide files on your phone and keep them securely backed up on the cloud? Hide in Cloud is all you need!"
+          description="Need to hide files on your phone and keep them securely backed up on the cloud? Hide in Cloud is all you need! Made with **flutter**."
           link="https://m.apkpure.com/hide-in-cloud-hide-photo-video-music-doc-etc/me.gopaul.safe_in_cloud"
           action="View on Play Store"
           actionIcon="google play"
@@ -39,7 +39,7 @@ function Portfolio() {
         <PortfolioCard
           image="/codetoimage.jpg"
           header="Wanna share code?"
-          description="Have a code snippet you need to share? This app allows you to share code in style!"
+          description="Have a code snippet you need to share? This app allows you to share code in style! Built in **python**'s **flask**."
           link="https://github.com/giriss/code-image"
           action="View on Github"
           actionIcon="github"
@@ -51,6 +51,14 @@ function Portfolio() {
           link="https://employees-front.vercel.app/"
           action="View app"
           actionIcon="globe"
+        />
+        <PortfolioCard
+          image="/image_search.jpg"
+          header="Image Search Mobile"
+          description="Made a simple yet beautiful Image Search app in **Flutter** over the weekend!"
+          link="https://www.youtube.com/shorts/Yl7W7kN4jaM?feature=share"
+          action="View short video"
+          actionIcon="youtube"
         />
         <PortfolioCard
           image="/todo.png"
