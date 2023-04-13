@@ -30,7 +30,7 @@ function Introduction() {
               }
             />
           </List>
-          <Button animated="vertical" as="a" href="/girish-gopaul-resume.pdf" download="Girish_Gopaul_CV.pdf">
+          <Button animated="vertical" as="a" href="/Girish_Gopaul-Senior_Developer.pdf" download="Girish_Gopaul_CV.pdf">
             <Button.Content visible>Download CV</Button.Content>
             <Button.Content hidden>
               <Icon name="download" />
