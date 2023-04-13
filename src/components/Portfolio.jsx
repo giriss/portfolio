@@ -32,7 +32,7 @@ function Portfolio() {
           image="/hideincloud.jpg"
           header="Hide in Cloud"
           description="Need to hide files on your phone and keep them securely backed up on the cloud? Hide in Cloud is all you need! Made with **flutter**."
-          link="https://m.apkpure.com/hide-in-cloud-hide-photo-video-music-doc-etc/me.gopaul.safe_in_cloud"
+          link="https://play.google.com/store/apps/details?id=me.gopaul.safe_in_cloud"
           action="View on Play Store"
           actionIcon="google play"
         />
