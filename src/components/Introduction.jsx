@@ -14,10 +14,10 @@ function Introduction() {
             <List.Item icon="phone" content="+230 59010577" />
             <List.Item icon="location arrow" content="Mahébourg, Mauritius" />
             <List.Item
-              icon="github"
+              icon="blogger b"
               content={
-                <a target="_blank" href="https://github.com/giriss" rel="noreferrer">
-                  https://github.com/giriss
+                <a target="_blank" href="https://blog.gopaul.me" rel="noreferrer">
+                  https://blog.gopaul.me
                 </a>
               }
             />
@@ -26,6 +26,14 @@ function Introduction() {
               content={
                 <a target="_blank" href="https://linkedin.com/in/girish-gopaul" rel="noreferrer">
                   https://linkedin.com/in/girish-gopaul
+                </a>
+              }
+            />
+            <List.Item
+              icon="github"
+              content={
+                <a target="_blank" href="https://github.com/giriss" rel="noreferrer">
+                  https://github.com/giriss
                 </a>
               }
             />
