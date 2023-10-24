@@ -10,7 +10,7 @@ function Introduction() {
       <Segment.Group raised stacked>
         <Segment size="large">
           <List>
-            <List.Item icon="mail" content="girish@gopaul.me" />
+            <List.Item icon="mail" content="hi@girish.monster" />
             <List.Item icon="phone" content="+230 59010577" />
             <List.Item icon="location arrow" content="Mahébourg, Mauritius" />
             <List.Item
