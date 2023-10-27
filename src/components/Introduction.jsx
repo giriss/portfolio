@@ -10,9 +10,21 @@ function Introduction() {
       <Segment.Group raised stacked>
         <Segment size="large">
           <List>
-            <List.Item icon="mail" content="hi@girish.monster" />
-            <List.Item icon="phone" content="+230 59010577" />
-            <List.Item icon="location arrow" content="Mahébourg, Mauritius" />
+            <List.Item icon="mail" content={
+              <a href="mailto:girish@gopaul.me" rel="noreferrer">
+                girish@gopaul.me
+              </a>
+            } />
+            <List.Item icon="phone" content={
+              <a href="tel:+23059010577" rel="noreferrer">
+                +230 59010577
+              </a>
+            } />
+            <List.Item icon="location arrow" content={
+              <a target="_blank" href="https://maps.app.goo.gl/hYnwZv9UFSj5QZGo7" rel="noreferrer">
+                Mahébourg, Mauritius
+              </a>
+            } />
             <List.Item
               icon="blogger b"
               content={
