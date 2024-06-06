@@ -29,9 +29,25 @@ function Portfolio() {
       <Header as="h2">Stuffs I do for fun...</Header>
       <Card.Group doubling itemsPerRow={4} stackable>
         <PortfolioCard
+          image="/todo-ai.jpg"
+          header="Todo List powered by ChatGPT-4"
+          description="Made a POC of a Todo List that uses **ChatGPT-4** and understands **human natural language** 😍 Made with ❤️ in **Flutter**!"
+          link="https://youtube.com/shorts/_BNc7lJd2u4?feature=share"
+          action="View short video"
+          actionIcon="youtube"
+        />
+        <PortfolioCard
+          image="/image_search.jpg"
+          header="Image Search Mobile"
+          description="Made a simple yet beautiful Image Search app in **Flutter** over the weekend! It invloves some **slick page transitions**, watch it - it's only a YouTube shorts 💯"
+          link="https://youtube.com/shorts/Yl7W7kN4jaM?feature=share"
+          action="View short video"
+          actionIcon="youtube"
+        />
+        <PortfolioCard
           image="/hideincloud.jpg"
           header="Hide in Cloud"
-          description="Need to hide files on your phone and keep them securely backed up on the cloud? Hide in Cloud is all you need! Made with **flutter**."
+          description="Need to hide files on your phone and keep them securely backed up on the cloud? Hide in Cloud is all you need! Made with **flutter**. *It's no longer on Play Store since I didn't maintain it for a while* 😔"
           link="https://play.google.com/store/apps/details?id=me.gopaul.safe_in_cloud"
           action="View on Play Store"
           actionIcon="google play"
@@ -51,14 +67,6 @@ function Portfolio() {
           link="https://employees-front.vercel.app/"
           action="View app"
           actionIcon="globe"
-        />
-        <PortfolioCard
-          image="/image_search.jpg"
-          header="Image Search Mobile"
-          description="Made a simple yet beautiful Image Search app in **Flutter** over the weekend!"
-          link="https://www.youtube.com/shorts/Yl7W7kN4jaM?feature=share"
-          action="View short video"
-          actionIcon="youtube"
         />
         <PortfolioCard
           image="/todo.png"
